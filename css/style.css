@@ -1,0 +1,105 @@
+/*!
+Theme Name: MBD
+Theme URI: #
+Author: #
+Author URI: #
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: kpa.gov.kz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+ 
+/*
+grayscale site
+*/
+
+/*
+body {
+	-webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+}
+
+jdiv, 
+div#jivo-iframe-container {
+	display:none !important;
+}
+
+.kpaspecline {
+	text-align: center;
+	padding: 20px;
+	background-color: #111;
+}
+.kpaspecline p {
+	max-width:1000px;
+	margin: 0 auto;
+	color:#ddd;
+	font-size: 20px;
+	font-weight: 600;
+	text-align:center;
+}
+*/
+
+.block-breackpage .post-nav-links span,
+.block-breackpage .post-nav-links a {
+	font-size:16px;
+}
+
+.block-breackpage .post-nav-links span {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #02439c;
+    color: #fff;
+    border: 1px solid #02439c;
+    margin: 5px 2px;
+}
+
+.block-breackpage .post-nav-links a {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #f8f8f8;
+    color: #02439c;
+    border: 1px solid #02439c;
+    margin: 5px 2px;
+}
+
+.wp-block-media-text {
+    direction: ltr;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: auto;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wp-block-media-text:nth-child(even) {
+	background-color:#f5f5f5
+}
+
+
+._3d-flip-book.fb3d-fullscreen-mode {
+
+    background-size: 79px;
+    background-repeat: no-repeat;
+    background-position: 98% 95%;
+}
+
+.container.page [class*="column"] + [class*="column"]:last-child {
+	float:unset
+}
+
+.page .wp-block-columns.colums-border.is-layout-flex {
+	width:100%
+}
+
+.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link {
+	color:#fff;
+}
